@@ -55,7 +55,7 @@ public class Spiral {
         int total = m * n;
 
         while (round < c){
-
+            //上边一列
             for (int i = left; i <= right && count < total; i++) {
                  count++;
                  res.add(matrix[round][i]);
