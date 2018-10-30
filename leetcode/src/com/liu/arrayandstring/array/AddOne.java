@@ -14,7 +14,7 @@ public class AddOne {
     public static void main(String[] args){
         int[] digits ={0};
         int res[] = plusOne(digits);
-        System.out.println("");;
+        System.out.println(res[0]);;
     }
 
     public static int[] plusOne(int[] digits) {
