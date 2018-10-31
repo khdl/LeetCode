@@ -13,8 +13,7 @@ public class MinSubAraayLen {
         int[] a ={2,3,1,2,4,3};
         int s = 7;
         int res = minSubArrayLen(s,a);
-        System.out.println();
-
+        System.out.println(res);
     }
     public static int minSubArrayLen(int s, int[] nums) {
         int i = 0;
