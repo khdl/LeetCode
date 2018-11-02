@@ -17,7 +17,6 @@ public class CycleQueue {
         n = k;
     }
 
-    /** Insert an element into the circular queue. Return true if the operation is successful. */
     public boolean enQueue(int value) {
         if (isFull() == true) {
             return false;
@@ -30,7 +29,7 @@ public class CycleQueue {
       return  true;
     }
 
-    /** Delete an element from the circular queue. Return true if the operation is successful. */
+
     public boolean deQueue() {
         if (isEmpty() == true) {
             return false;
@@ -45,7 +44,6 @@ public class CycleQueue {
 
     }
 
-    /** Get the front item from the queue. */
     public int Front() {
         if (isEmpty() == true) {
             return -1;
@@ -53,7 +51,6 @@ public class CycleQueue {
         return items[head];
     }
 
-    /** Get the last item from the queue. */
     public int Rear() {
         if (isEmpty() == true) {
             return -1;
@@ -61,12 +58,12 @@ public class CycleQueue {
         return items[tail];
     }
 
-    /** Checks whether the circular queue is empty or not. */
+
     public boolean isEmpty() {
         return head == -1;
     }
 
-    /** Checks whether the circular queue is full or not. */
+
     public boolean isFull() {
         return ((tail + 1) % n) == head;
     }
