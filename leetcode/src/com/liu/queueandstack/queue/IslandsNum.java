@@ -10,6 +10,7 @@ public class IslandsNum {
     public static void main(String[] args){
        char[][] grid = new char[4][5];
        grid[0] =new char[]{'1','1','1','1','0'};
+       numIslands(grid);
     }
     public static  int numIslands(char[][] grid) {
         int res = 0;
