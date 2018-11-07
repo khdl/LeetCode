@@ -14,6 +14,12 @@ public class SquaresNum {
         int res =numSquares(a);
         System.out.println(res);
     }
+
+    /**
+     * 用的四平方定理
+     * @param n
+     * @return
+     */
     public static int numSquares(int n) {
      while(n%4 == 0){
         n=n/4;
