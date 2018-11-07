@@ -9,10 +9,21 @@ import java.util.Stack;
  * @Description: 最小栈
  * 设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
  */
-public class MInStack {
+public class MinStack {
     private Stack<Integer> s1 = new Stack<>();
     private Stack<Integer> s2 = new Stack<>();
 
+    public static void main(String[] args){
+        MinStack minStack = new MinStack();
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        minStack.getMin();
+        minStack.pop();
+        minStack.top();      
+        minStack.getMin();
+        System.out.println();
+    }
     public  void  push(int x){
         s1.push(x);
         if(s2.isEmpty() || s2.peek() >= x){
