@@ -10,9 +10,6 @@ import java.util.*;
  * 克隆一张无向图，图中的每个节点包含一个 label （标签）和一个 neighbors （邻接点）列表 。
  */
 public class CloneGragh {
-    public static void main(String[] args){
-
-    }
     private HashMap<Integer, UndirectedGraphNode> map = new HashMap<>();
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         return clone(node);
