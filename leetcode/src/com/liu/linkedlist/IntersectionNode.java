@@ -10,7 +10,7 @@ package com.liu.linkedlist;
  * 在返回结果后，两个链表仍须保持原有的结构。
  */
 public class IntersectionNode {
-  
+
     /**
      * 思路：第一遍循环，找出两个链表的长度差N
      *       第二遍循环，长链表先走N步，然后同时移动，判断是否有相同节点
