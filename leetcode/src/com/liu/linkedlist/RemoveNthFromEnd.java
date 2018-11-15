@@ -18,7 +18,7 @@ public class RemoveNthFromEnd {
         }
         if(first == null){
             return second.next;
-        } 
+        }
         while (first.next != null){
             first = first.next;
             second = second.next;
