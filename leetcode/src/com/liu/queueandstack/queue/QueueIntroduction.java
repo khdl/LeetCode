@@ -10,9 +10,9 @@ import java.util.List;
  * @Description: 对列介绍
  */
 public class QueueIntroduction {
-    // store elements
+
     private List<Integer> data;
-    // a pointer to indicate the start position
+
     private int p_start;
     public QueueIntroduction() {
         data = new ArrayList<Integer>();
