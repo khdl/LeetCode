@@ -28,6 +28,11 @@ public class GuessNumber {
         
     }
 
+    /**
+     * 返回int值得方法，为了方便写的，与实际无关
+     * @param mid
+     * @return
+     */
     private int guess(int mid) {
         int n = new Random().nextInt();
         if(mid > n ){
